@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Stb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="stb.xsd">
+  <Id>0</Id>
+  <Titreduprojet>Titreduprojet</Titreduprojet>
+  <Version>0.1</Version>
+  <date>2001-01-01</date>
+  <Description>Description</Description>
+  <Client>
+    <entite>entite</entite>
+    <contact>contact</contact>
+    <Codepostal>0</Codepostal>
+  </Client>
+  <Equipe>
+    <membres>
+      <gender>true</gender>
+      <nom>nom</nom>
+      <prenom>prenom</prenom>
+    </membres>
+  </Equipe>
+  <Fonctionnalite priorite="0">
+    <Description>Description</Description>
+    <exigenceF>
+      <Identifiant>Identifiant</Identifiant>
+      <Description>Description</Description>
+      <Priorite>0</Priorite>
+    </exigenceF>
+    <exigenceF>
+      <Identifiant>Identifiant</Identifiant>
+      <Description>Description</Description>
+      <Priorite>0</Priorite>
+    </exigenceF>
+  </Fonctionnalite>
+  <Fonctionnalite priorite="0">
+    <Description>Description</Description>
+    <exigenceF>
+      <Identifiant>Identifiant</Identifiant>
+      <Description>Description</Description>
+      <Priorite>0</Priorite>
+    </exigenceF>
+    <exigenceF>
+      <Identifiant>Identifiant</Identifiant>
+      <Description>Description</Description>
+      <Priorite>0</Priorite>
+    </exigenceF>
+  </Fonctionnalite>
+</Stb>

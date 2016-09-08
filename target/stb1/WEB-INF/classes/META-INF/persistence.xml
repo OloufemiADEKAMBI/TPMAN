@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+             version="1.0">
+
+      <persistence-unit name="crm">
+      
+      <class>fr.STB1.model.Stb</class>
+      <class>fr.STB1.model.Client</class>
+      <class>fr.STB1.model.Equipe</class>
+      <class>fr.STB1.model.Membre</class>
+      <class>fr.STB1.model.Fonctionnalite</class>
+      <class>fr.STB1.model.ExigenceFonctionnelle</class>
+ 
+       
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/stb"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.c3p0.min_size" value="5"/>
+            <property name="hibernate.c3p0.max_size" value="20"/>
+            <property name="hibernate.c3p0.idleTestPeriod" value="30"/>
+            <property name="hibernate.c3p0.timeout" value="0"/>
+            <property name="hibernate.c3p0.max_statements" value="0"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.query.jpaql_strict_compliance" value="false"/>
+            <property name="hibernate.validator.apply_to_ddl" value="false"/>
+            <property name="hibernate.validator.autoregister_listeners" value="false"/>
+            <property name="hibernate.archive.autodetection" value="class, hbm"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
