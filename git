@@ -1,0 +1,14 @@
+git :
+http://rogerdudler.github.io/git-guide/
+
+The easiest ways to make money
+ Et de 2
+
+https://ensiwiki.ensimag.fr/index.php/G%C3%A9rer_des_branches_avec_Git
+
+Le git merge permet de faire la fusion au niveau des branches 
+
+Après un merge sur la branche master , il faut faire ceci : 
+ git config --global push.default matching 
+ Ensuite en faisant un push une fois positionné sur master, la branche master contient toutes les modificatons apportées par l'autre
+branche mais qu'on a déjà obtenu avec git merge. 

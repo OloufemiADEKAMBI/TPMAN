@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services/ServiceStbImpl.class
 fr/STB1/model/Stb.class
 Test.class
@@ -18,3 +19,6 @@ dao/EntityManagerConnectionService.class
 fr/STB1/model/Fonctionnalite.class
 fr/STB1/model/Client.class
 fr/STB1/config/AppConfig.class
+=======
+tp1_groupid/tp1_artifactid/App.class
+>>>>>>> fb8bd478f49516cbb1a2d0588214dcfa9aba8647

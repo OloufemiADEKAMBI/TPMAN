@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/adeks/workspace/STB1/src/main/java/fr/STB1/model/Equipe.java
 /home/adeks/workspace/STB1/src/main/java/fr/STB1/model/Client.java
 /home/adeks/workspace/STB1/src/main/java/fr/STB1/model/Stb.java
@@ -20,3 +21,6 @@
 /home/adeks/workspace/STB1/src/main/java/dao/StbDAOImpl.java
 /home/adeks/workspace/STB1/src/main/java/fr/STB1/model/ExigenceFonctionnelle.java
 /home/adeks/workspace/STB1/src/main/java/fr/STB1/model/Fonctionnalite.java
+=======
+/home/adeks/workspace1/tp1_artifactid/src/main/java/tp1_groupid/tp1_artifactid/App.java
+>>>>>>> fb8bd478f49516cbb1a2d0588214dcfa9aba8647
